@@ -1,0 +1,31 @@
+==============================================================================
+STUDIO DI COPERTURA UHF - MONTE CAVO
+==============================================================================
+Frequenza 300 MHz (lambda = 1.00 m) | Ptx 50 W = 47.0 dBm
+Guadagno dipolo max 2.15 dBi | perdite 2.0 dB | EIRP 47.1 dBm
+Antenna TX a 969 m s.l.m. -> orizzonte radio proprio 128.3 km
+Sensibilita' RX -100 dBm -> attenuazione max ammessa 147.1 dB
+Portata limitata dalla sola potenza (spazio libero): 1,810 km
+
+--- COLLEGAMENTI VERSO TERRA (rx a 2 m) ---
+                Sito  Distanza_km  Orizzonte_km LOS_terra_liscia  Elevazione_deg  G_tx_dBi  FSPL_dB  Prx_dBm  Margine_dB  Fresnel_r1_m  Sgombero_su_r1
+Pratica di Mare (AB)         24.3         144.3               SI           -2.33      2.14    109.7    -62.6        37.4          78.0             6.2
+       Ciampino (AB)         10.8         175.5               SI           -4.45      2.11    102.7    -55.6        44.4          52.1            10.5
+         Latina (AB)         28.5         151.3               SI           -1.98      2.14    111.1    -64.0        36.0          84.5             5.8
+       Guidonia (AB)         26.7         167.4               SI           -1.98      2.14    110.5    -63.4        36.6          81.7             6.4
+        Viterbo (AB)         92.4         200.5               SI           -0.72      2.15    121.3    -74.2        25.8         152.0             3.4
+      Frosinone (AB)         50.4         184.1               SI           -1.06      2.15    116.0    -68.9        31.1         112.3             4.8
+
+--- PORTATA TERRA-ARIA ---
+ Quota_aereo_m  Orizzonte_radio_km  Prx_al_bordo_dBm  Margine_al_bordo_dB
+           100               170.0             -79.4                 20.6
+           300               200.0             -80.9                 19.1
+           500               220.0             -81.7                 18.3
+          1000               259.0             -83.1                 16.9
+          2000               313.0             -84.7                 15.3
+          3000               354.0             -85.8                 14.2
+          5000               420.0             -87.3                 12.7
+          8000               497.0             -88.8                 11.2
+         10000               540.0             -89.5                 10.5
+
+File salvati in: python/figures
